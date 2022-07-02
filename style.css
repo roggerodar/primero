@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ececec;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background: hsla(204, 64%, 44%, 0.505);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, hsla(196, 93%, 70%, 0.501), #2980B9), url(./Recursos/Fondo.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, hsla(196, 93%, 70%, 0.503), #2980B9), url(./Recursos/Fondo.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: relative;
+}
+.logo{
+    height: 50px;
+    float: left;
+    padding: 10px 40px;
+    /* margin-bottom: 10px; */
+}
+.red_social{
+    float: right;
+    height: 50px;
+    width: 200px;
+    padding: 10px 40px;
+}
+.menu{
+    width:100%;
+    height:45px;
+    position: relative;
+    background: hsl(204, 88%, 32%, 0.922);
+    margin: 0 auto;
+}
+.limpiar{
+    clear: both;
+}
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+    margin:20px;
+    line-height: 45px;
+}
+nav ul li a:hover{
+    background-color: hsla(186, 70%, 82%, 0.789);
+    border-radius: 10px;
+    padding: 5px 20px;
+    transition-duration: 1000ms;
+    color:#ffffff;
+    font-family: cursive;
+    font-weight: bold;
+}
+.texto-header{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.texto-header h1{
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto-header h2{
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
